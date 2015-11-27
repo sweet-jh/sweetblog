@@ -4,13 +4,17 @@ title: JingHan's Blog
 ---
 
 <div class="nav">
-    <span>最新文章</span>
+    <div class="nav_inner">
+        <span>最新文章</span>
+    </div>
 </div>
 <div class="post_list">
-    <ul>
-        {% for post in site.posts %}
-        <li><span class="post_date">{{ post.date | date:"%Y-%m-%d" }}</span><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-        {% endfor %}
-    </ul>
+    <div class="post_list_inner">
+        <ul>
+            {% for post in site.posts %}
+            <li><span class="post_date">{{ post.date | date:"%Y-%m-%d" }}</span><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+            {% endfor %}
+        </ul>
+    </div>
 </div>
 <div class="clear"></div>

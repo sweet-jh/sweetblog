@@ -69,16 +69,18 @@ header .date{
 	margin-left: 20px;
 }
 .content{
-	min-height: 560px;
+	min-height: 400px;
 }
 .content .nav{
 	float: left;
 	width: 35%;
 	boxsizing:border-box;
+	background-color: #f8f8f8;
+	min-height: 400px;
+}
+.content .nav .nav_inner{
 	margin: 20px;
 	padding: 20px;
-	height: 100%;
-	background-color: #f8f8f8;
 }
 .content .nav span{
 	display: block;
@@ -90,11 +92,17 @@ header .date{
 	boxsizing:border-box;
 	margin: 20px;
 	padding:20px 20px 20px 0;
+	min-height: 400px;
+}
+.content .post_list .post_list_inner{
+	margin: 20px;
+	padding:20px 20px 20px 0;
 }
 .content .post_list .post_date{
 	font-size: 13px;
 	color: #888;
 	line-height: 30px;
+	margin-right: 30px;
 }
 .content .post_list a{
 	line-height: 30px;
