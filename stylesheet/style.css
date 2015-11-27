@@ -58,6 +58,13 @@ header{
 	padding: 10px 5px;
 	border-bottom: 1px solid #f8f8f8;
 }
+header span{
+	font-size: 13.5px
+	color:#888;
+}
+header .date{
+	margin-left: 20px;
+}
 footer{
 text-align:center;
 display:block;

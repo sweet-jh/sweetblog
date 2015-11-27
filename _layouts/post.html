@@ -12,6 +12,10 @@
         	        <div class="title">
         	            <h2>{{ page.title }}</h2>
         	        </div>
+        	        <div class="tags">
+        	        	<span class="auther">{{ site.auther }}</span>
+        	        	<span class="date">{{ page.date | date:"%Y-%m-%d" }}</span>
+        	        </div>
         	    </header>
         	    <div class="content">
         	     {{ content }}

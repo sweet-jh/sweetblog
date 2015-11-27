@@ -1,6 +1,6 @@
 ---
 date: 2015-11-27
-layout: default
+layout: post
 title: 沟通的艺术
 ---
 ![]({{ site.baseurl }}/media/image/banner1.jpg)
