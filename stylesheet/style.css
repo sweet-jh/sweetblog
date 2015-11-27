@@ -90,8 +90,6 @@ header .date{
 	float: left;
 	width: 65%;
 	boxsizing:border-box;
-	margin: 20px;
-	padding:20px 20px 20px 0;
 	min-height: 400px;
 }
 .content .post_list .post_list_inner{
