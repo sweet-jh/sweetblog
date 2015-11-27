@@ -38,6 +38,9 @@ body{
 	width: 70%;
 	margin: 0 auto;
 }
+.clear{
+	clear: both;
+}
 h1{
 	font-size: 46px;
 	margin: 12px 0;
@@ -59,11 +62,24 @@ header{
 	border-bottom: 1px solid #f8f8f8;
 }
 header span{
-	font-size: 13.5px
+	font-size: 13.5px;
 	color:#888;
 }
 header .date{
 	margin-left: 20px;
+}
+.content{
+	min-height: 560px;
+}
+.content .nav{
+	float: left;
+	width: 35%;
+	boxsizing:border-box;
+}
+.content .post_list{
+	float: left;
+	width: 65%;
+	boxsizing:border-box;
 }
 footer{
 text-align:center;

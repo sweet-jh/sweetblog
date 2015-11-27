@@ -3,10 +3,14 @@ layout: default
 title: JingHan's Blog
 ---
 
-<p>最新文章</p>
-
-<ul>
-    {% for post in site.posts %}
-      <li>{{ page.date | date:"%Y-%m-%d" }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-</ul>
+<div class="nav">
+    <span>最新文章</span>
+</div>
+<div class="post_list">
+    <ul>
+        {% for post in site.posts %}
+        <li>{{ post.date | date:"%Y-%m-%d" }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+        {% endfor %}
+    </ul>
+</div>
+<div class="clear"></div>
